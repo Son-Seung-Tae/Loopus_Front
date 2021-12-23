@@ -14,6 +14,13 @@ const downDark = Color(0x66000000);
 // var lightGray = Colors.grey[400];
 //
 
+const kHeaderH1Style = TextStyle(
+  fontSize: 20,
+  fontWeight: FontWeight.w500,
+  color: mainblack,
+  fontFamily: 'Nanum',
+);
+
 const kHeaderH2Style = TextStyle(
   fontSize: 20,
   fontWeight: FontWeight.bold,
@@ -22,76 +29,89 @@ const kHeaderH2Style = TextStyle(
   fontFamily: 'Nanum',
 );
 
-//Text StyleSheet
-var kAppBarTitleStyle = TextStyle(
-  fontSize: 18,
+const kSubTitle1Style = TextStyle(
+  fontSize: 16,
   fontWeight: FontWeight.bold,
-  color: mainWhite,
+  color: mainblack,
+  height: 1.5,
   fontFamily: 'Nanum',
-  decoration: TextDecoration.none,
 );
 
-//Home Style
-var kHomeTitleStyle = TextStyle(
+const kSubTitle2Style = TextStyle(
+  fontSize: 16,
+  fontWeight: FontWeight.bold,
+  color: mainblack,
+  fontFamily: 'Nanum',
+);
+
+const kSubTitle3Style = TextStyle(
+  fontSize: 16,
+  color: mainblack,
+  fontFamily: 'Nanum',
+);
+
+const kSubTitle4Style = TextStyle(
+  fontSize: 14,
+  fontWeight: FontWeight.bold,
+  color: mainblack,
+  height: 1.5,
+  fontFamily: 'Nanum',
+);
+
+const kBody1Style = TextStyle(
+  fontSize: 14,
+  color: mainblack,
+  height: 1.5,
+  fontFamily: 'Nanum',
+);
+
+const kBody2Style = TextStyle(
+  fontSize: 14,
+  color: mainblack,
+  fontFamily: 'Nanum',
+);
+
+const kButtonStyle = TextStyle(
+  fontSize: 14,
+  fontWeight: FontWeight.bold,
+  color: mainblack,
+  fontFamily: 'Nanum',
+);
+
+const kCaptionStyle = TextStyle(
+  fontSize: 12,
+  color: mainblack,
+  fontFamily: 'Nanum',
+);
+
+//posting editor
+
+const kPostH1Style = TextStyle(
   fontSize: 20,
   fontWeight: FontWeight.bold,
-  color: mainWhite,
+  color: mainblack,
+  height: 1.6,
   fontFamily: 'Nanum',
-  decoration: TextDecoration.none,
 );
 
-var kHomeGanreStyle = TextStyle(
-  fontSize: 18,
-  fontWeight: FontWeight.bold,
-  color: mainWhite,
-  fontFamily: 'Nanum',
-  decoration: TextDecoration.none,
-);
-
-var kHomeContentStyle = TextStyle(
-  fontSize: 14,
-  fontWeight: FontWeight.w600,
-  color: mainWhite,
-  fontFamily: 'Nanum',
-  decoration: TextDecoration.none,
-);
-
-var kTitle2Style = TextStyle(
-  fontSize: 15,
-  fontWeight: FontWeight.bold,
-  color: mainWhite,
-  fontFamily: 'Nanum',
-  decoration: TextDecoration.none,
-);
-
-var kTitle3Style = TextStyle(
-  fontSize: 14,
-  fontWeight: FontWeight.bold,
-  color: mainWhite,
-  fontFamily: 'Nanum',
-  decoration: TextDecoration.none,
-);
-
-var kContentStyle = TextStyle(
-  fontSize: 12,
-  fontWeight: FontWeight.w600,
-  color: mainWhite,
-  fontFamily: 'Nanum',
-  decoration: TextDecoration.none,
-);
-
-var kContentSubStyle = TextStyle(
-  fontSize: 12,
-  fontWeight: FontWeight.w600,
-  color: mainWhite,
-  fontFamily: 'Nanum',
-  decoration: TextDecoration.none,
-);
-
-var kSearchHintStyle = TextStyle(
+const kPostH2Style = TextStyle(
   fontSize: 16,
-  fontWeight: FontWeight.w600,
-  color: mainWhite,
+  fontWeight: FontWeight.bold,
+  color: mainblack,
+  height: 1.6,
   fontFamily: 'Nanum',
-  decoration: TextDecoration.none,
+);
+
+const kPostH3Style = TextStyle(
+  fontSize: 16,
+  color: mainblack,
+  height: 1.6,
+  fontFamily: 'Nanum',
+);
+
+const kPostNormalStyle = TextStyle(
+  fontSize: 14,
+  color: mainblack,
+  height: 1.5,
+  fontFamily: 'Nanum',
 );
