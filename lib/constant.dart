@@ -16,7 +16,7 @@ const downDark = Color(0x66000000);
 
 const kHeaderH1Style = TextStyle(
   fontSize: 20,
-  fontWeight: FontWeight.w500,
+  fontWeight: FontWeight.w900,
   color: mainblack,
   fontFamily: 'Nanum',
 );
@@ -41,6 +41,13 @@ const kSubTitle2Style = TextStyle(
   fontSize: 16,
   fontWeight: FontWeight.bold,
   color: mainblack,
+  fontFamily: 'Nanum',
+);
+
+const kBlueSubTitle2Style = TextStyle(
+  fontSize: 16,
+  fontWeight: FontWeight.bold,
+  color: mainblue,
   fontFamily: 'Nanum',
 );
 
@@ -75,6 +82,13 @@ const kButtonStyle = TextStyle(
   fontSize: 14,
   fontWeight: FontWeight.bold,
   color: mainblack,
+  fontFamily: 'Nanum',
+);
+
+const kBlueButtonStyle = TextStyle(
+  fontSize: 14,
+  fontWeight: FontWeight.bold,
+  color: mainWhite,
   fontFamily: 'Nanum',
 );
 
