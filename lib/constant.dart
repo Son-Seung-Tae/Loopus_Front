@@ -16,7 +16,7 @@ const downDark = Color(0x66000000);
 
 const kHeaderH1Style = TextStyle(
   fontSize: 20,
-  fontWeight: FontWeight.w900,
+  fontWeight: FontWeight.bold,
   color: mainblack,
   fontFamily: 'Nanum',
 );
